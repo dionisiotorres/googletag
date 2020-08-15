@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+	<template id="product_assets_frontend" inherit_id="web.assets_frontend">
+		<xpath expr="." position="inside">
+			<script src="/payment_ngenius/static/src/js/payment_ngenius.js" type="text/javascript"/>
+		</xpath>
+	</template>
+</odoo>

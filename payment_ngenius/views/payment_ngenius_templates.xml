@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="ngenius_form">
+        <input type="hidden" name="data_set" t-att-data-action-url="payment_url" data-remove-me="" data-method="get"/>
+        <input type="hidden" name="code" t-att-value="code"/>
+    </template>
+</odoo>
